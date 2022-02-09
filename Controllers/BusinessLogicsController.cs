@@ -4116,13 +4116,7 @@ namespace Brandix.DCAP.API.Controllers
 
                     Status.SaveSuccessfull = TxnContrl.UpdatePOCounter(CounterId, Action, 0, BagSize, BagBarcode, WfdepinstId, WFId, OperationCode);
 
-//                     //int RecievEnable=0;
-// //Duplicate code start
-//                         TeamCounter TC1 = new TeamCounter();
-//                         TC1 = dcap.TeamCounter
-//                             .Where(c => c.CounterId == CounterId && c.BagBarCodeNo == BagBarcode && c.WfdepinstId == WfdepinstId)
-//                             .FirstOrDefault();
-// //Duplicate code end
+//                     
 
                     Wfdep wfdep = new Wfdep();
                     wfdep = dcap.Wfdep
