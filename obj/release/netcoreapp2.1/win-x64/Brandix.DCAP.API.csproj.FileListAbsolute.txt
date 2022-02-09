@@ -1,0 +1,15 @@
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.exe
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.deps.json
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.runtimeconfig.json
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.runtimeconfig.dev.json
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.dll
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.pdb
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.csprojAssemblyReference.cache
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.csproj.CoreCompileInputs.cache
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.RazorAssemblyInfo.cache
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.RazorAssemblyInfo.cs
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.AssemblyInfoInputs.cache
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.AssemblyInfo.cs
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.RazorTargetAssemblyInfo.cache
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.dll
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Release\netcoreapp2.1\win-x64\Brandix.DCAP.API.pdb

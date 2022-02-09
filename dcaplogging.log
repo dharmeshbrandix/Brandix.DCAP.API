@@ -1,0 +1,472 @@
+2022-02-09 08:37:13,128 [8] f29f3449-fa61-4842-83f3-364034d5fade INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start / :  
+2022-02-09 08:37:17,280 [8] f29f3449-fa61-4842-83f3-364034d5fade INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - / : 4168.3858 ms 
+2022-02-09 09:11:28,509 [8] 4023dafc-4e82-42a6-a31f-d86e26059df4 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 09:11:29,008 [8] 4023dafc-4e82-42a6-a31f-d86e26059df4 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 499.4118 ms 
+2022-02-09 09:11:29,091 [8] 90195126-fef0-451c-be8d-cecb3937fac3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 09:11:32,258 [8] 90195126-fef0-451c-be8d-cecb3937fac3 INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetClientByIP method called with clientIP=::1
+2022-02-09 09:11:42,624 [8] 90195126-fef0-451c-be8d-cecb3937fac3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 13532.7131 ms 
+2022-02-09 09:15:17,573 [55] d2578410-3cbf-495f-af74-fc4f6fca8c7f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 09:15:17,625 [55] d2578410-3cbf-495f-af74-fc4f6fca8c7f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 51.5513 ms 
+2022-02-09 09:15:17,703 [8] a7a88e57-4e70-4588-9b0f-4e3cbc9e719c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 09:15:17,810 [8] a7a88e57-4e70-4588-9b0f-4e3cbc9e719c INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetSecuser API called with userId = 100, userIdNum = 100, password=********
+2022-02-09 09:15:19,445 [8] a7a88e57-4e70-4588-9b0f-4e3cbc9e719c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 1741.9826 ms 
+2022-02-09 09:15:19,455 [8] 9762ac9d-1fea-40ba-a62f-a7db574c8b7f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 09:15:19,477 [8] 9762ac9d-1fea-40ba-a62f-a7db574c8b7f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 21.5604 ms 
+2022-02-09 09:15:19,485 [8] 23daaaae-3aa3-45b5-98c0-a55092399779 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 09:15:19,516 [8] 23daaaae-3aa3-45b5-98c0-a55092399779 INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetUserPermissions API called with userId=100
+2022-02-09 09:15:20,798 [8] 23daaaae-3aa3-45b5-98c0-a55092399779 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 1312.4996 ms 
+2022-02-09 09:15:22,323 [55] 0d759dd7-b33c-4695-af98-9997bc33ee24 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 09:15:22,368 [55] 0d759dd7-b33c-4695-af98-9997bc33ee24 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 44.6549 ms 
+2022-02-09 09:15:22,382 [55] 01680ab5-fcd7-48b0-a3f1-6ff970e5136a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 09:15:22,447 [55] 01680ab5-fcd7-48b0-a3f1-6ff970e5136a INFO  - Brandix.DCAP.API.Controllers.LookupController - GetOpperationsByUser API called with UserId=DharmeshM
+2022-02-09 09:15:23,963 [55] 01680ab5-fcd7-48b0-a3f1-6ff970e5136a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 1581.457 ms 
+2022-02-09 09:15:31,970 [8] 9a3aeb02-e52b-4f75-ae2e-38ffe1141797 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g 
+2022-02-09 09:15:32,046 [8] 9a3aeb02-e52b-4f75-ae2e-38ffe1141797 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g
+2022-02-09 09:15:33,339 [8] 9a3aeb02-e52b-4f75-ae2e-38ffe1141797 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 1369.8524 ms 
+2022-02-09 09:15:33,391 [8] 51a67676-8869-4ed6-982d-17261d4b318a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g788 
+2022-02-09 09:15:33,405 [8] 51a67676-8869-4ed6-982d-17261d4b318a INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g788
+2022-02-09 09:15:34,414 [8] 51a67676-8869-4ed6-982d-17261d4b318a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 1023.6459 ms 
+2022-02-09 09:15:36,916 [8] 854901a2-48c3-4509-bdce-ebff54553b6f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 09:15:36,949 [8] 854901a2-48c3-4509-bdce-ebff54553b6f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 33.4708 ms 
+2022-02-09 09:15:37,007 [8] fc8e0b14-73f0-4ca9-85cd-5c3aea2bd4b9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 09:15:37,097 [8] fc8e0b14-73f0-4ca9-85cd-5c3aea2bd4b9 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetConfigurationWFDEPInstId API called with WFDEPInstId=1430
+2022-02-09 09:15:38,427 [8] fc8e0b14-73f0-4ca9-85cd-5c3aea2bd4b9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 1419.695 ms 
+2022-02-09 09:15:38,445 [55] 67b8d190-3fa5-41af-806e-e2c2dd971c6f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 09:15:38,457 [8] d35e785f-dec1-494d-a332-7324a5f9c8ca INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 09:15:38,479 [8] d35e785f-dec1-494d-a332-7324a5f9c8ca INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 21.8204 ms 
+2022-02-09 09:15:38,509 [55] 67b8d190-3fa5-41af-806e-e2c2dd971c6f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 63.547 ms 
+2022-02-09 09:15:38,521 [58] 406b15d8-49be-44a7-81c0-8d8976fbc189 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 09:15:38,523 [8] 7ab99fbd-91c9-4b86-86c8-dfaf8d5802f9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 09:15:38,552 [58] 406b15d8-49be-44a7-81c0-8d8976fbc189 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get WFDetailByID API called with WFID=400
+2022-02-09 09:15:38,648 [8] 7ab99fbd-91c9-4b86-86c8-dfaf8d5802f9 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetPOcounterValues API called with WFDEPInstId = 1430
+2022-02-09 09:15:39,954 [58] 406b15d8-49be-44a7-81c0-8d8976fbc189 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 1432.0691 ms 
+2022-02-09 09:15:41,685 [8] 7ab99fbd-91c9-4b86-86c8-dfaf8d5802f9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 3161.3347 ms 
+2022-02-09 09:15:41,728 [8] 13c61a4f-1290-4e8d-a421-688fb54397bd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 09:15:41,752 [8] 13c61a4f-1290-4e8d-a421-688fb54397bd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 24.5496 ms 
+2022-02-09 09:15:41,774 [49] 57bf5a35-b8d0-47e8-adcc-58f78c170cd5 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 09:15:41,793 [49] 57bf5a35-b8d0-47e8-adcc-58f78c170cd5 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetMostUpdatedPOcounter API called with WFDEPInstId = 1430
+2022-02-09 09:15:42,811 [49] 57bf5a35-b8d0-47e8-adcc-58f78c170cd5 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 1036.7464 ms 
+2022-02-09 09:16:04,413 [8] c72d0fe6-7f97-431d-9687-ee5b84719ff8 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 09:16:04,450 [8] c72d0fe6-7f97-431d-9687-ee5b84719ff8 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/BusinessLogics/UpdatePOCounter : 36.8385 ms 
+2022-02-09 09:16:04,475 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 09:16:25,233 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.LookupController - SetFlagForMinimumPOQuantity l1=748, l2=12, l3=0, l4=1, OperationCode=151
+2022-02-09 09:16:59,693 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.TransactionController - UpdatePOCounter CounterId=268913, Action=268913, Qty01=268913, BagSize=268913, BagBarcode=268913, WfdepinstId=268913, WFId=268913, 
+2022-02-09 09:17:05,879 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.LookupController - CheckForBagBarcode bagbarcode=88 mode=2
+2022-02-09 09:17:06,196 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], mode=1, WFId=1
+2022-02-09 09:17:06,299 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get BagDepId by WFInstId WFinstId=1430
+2022-02-09 09:17:07,369 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], OperationCode=127
+2022-02-09 09:17:07,392 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name bagtag=88
+2022-02-09 09:18:32,720 [8] ac316d02-145a-4246-8b3f-3eaa22bdbff4 ERROR - Brandix.DCAP.API.Controllers.BusinessLogicsController - Error while retrieving Operation information MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+   at MySqlConnector.Protocol.Serialization.BufferedByteReader.ReadBytesAsync(IByteHandler byteHandler, ArraySegment`1 buffer, Int32 totalBytesToRead, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\BufferedByteReader.cs:line 36
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.ReadPacketAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 406
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.DoReadPayloadAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegmentHolder`1 previousPayloads, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 459
+   at MySqlConnector.Protocol.Serialization.StandardPayloadHandler.ReadPayloadAsync(ArraySegmentHolder`1 cache, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\StandardPayloadHandler.cs:line 37
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 645
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ServerSession.TryAsyncContinuation(Task`1 task) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 1230
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:line 42
+   at MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 74
+   at MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 299
+   at MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 284
+   at MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(String commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 37
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 252
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Brandix.DCAP.API.Controllers.BusinessLogicsController.UpdatePOCounter(Int32 CounterId, Int32 Action, Int32 BagSize, String BagBarcode, Int32 WfdepinstId, UInt32 WFId, Int32 OperationCode) in E:\dcap-master\dcap-master\Brandix.DCAP.API\Controllers\BusinessLogicsController.cs:line 4133
+2022-02-09 10:34:05,327 [8] f1cf28fd-eb10-457b-bce1-b09b01610dde INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 10:34:05,605 [8] f1cf28fd-eb10-457b-bce1-b09b01610dde INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 277.3056 ms 
+2022-02-09 10:34:05,630 [8] 85b48ed7-5d9f-49b2-96d5-5f0050a544ea INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 10:34:05,821 [8] 85b48ed7-5d9f-49b2-96d5-5f0050a544ea INFO  - Brandix.DCAP.API.Controllers.LookupController - GetOpperationsByUser API called with UserId=DharmeshM
+2022-02-09 10:34:08,890 [8] 85b48ed7-5d9f-49b2-96d5-5f0050a544ea INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 3260.378 ms 
+2022-02-09 10:34:15,037 [54] 5919a927-a5d7-443e-9d74-343fdf83dcbd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g 
+2022-02-09 10:34:15,046 [54] 5919a927-a5d7-443e-9d74-343fdf83dcbd INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g
+2022-02-09 10:34:16,038 [54] 5919a927-a5d7-443e-9d74-343fdf83dcbd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 1000.9794 ms 
+2022-02-09 10:34:16,098 [8] cf7c7f90-f722-4ceb-a2f0-0babf7463ae2 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g788 
+2022-02-09 10:34:16,108 [8] cf7c7f90-f722-4ceb-a2f0-0babf7463ae2 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g788
+2022-02-09 10:34:16,954 [8] cf7c7f90-f722-4ceb-a2f0-0babf7463ae2 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 855.9511 ms 
+2022-02-09 10:34:17,015 [8] 4c9bcbb4-92dd-4782-b680-9f50b584204b INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g7888 
+2022-02-09 10:34:17,025 [8] 4c9bcbb4-92dd-4782-b680-9f50b584204b INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g7888
+2022-02-09 10:34:17,876 [8] 4c9bcbb4-92dd-4782-b680-9f50b584204b INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 861.4953 ms 
+2022-02-09 10:34:18,597 [3] 5e5fcc40-a872-4707-82a0-e22eb8c0ac9e INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 10:34:18,613 [3] 5e5fcc40-a872-4707-82a0-e22eb8c0ac9e INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 15.4382 ms 
+2022-02-09 10:34:18,626 [3] 66d30d8d-98ae-46a8-97bd-0fa3457db6ef INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 10:34:18,663 [3] 66d30d8d-98ae-46a8-97bd-0fa3457db6ef INFO  - Brandix.DCAP.API.Controllers.LookupController - GetConfigurationWFDEPInstId API called with WFDEPInstId=1430
+2022-02-09 10:34:19,529 [3] 66d30d8d-98ae-46a8-97bd-0fa3457db6ef INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 902.9697 ms 
+2022-02-09 10:34:19,550 [54] 7981520b-9974-4dbc-87b0-9bb4b9074db7 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 10:34:19,567 [54] 7981520b-9974-4dbc-87b0-9bb4b9074db7 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 16.934 ms 
+2022-02-09 10:34:19,584 [8] 59260165-af95-4a8e-9de2-ca69cd67c663 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 10:34:19,607 [8] 59260165-af95-4a8e-9de2-ca69cd67c663 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 23.4522 ms 
+2022-02-09 10:34:19,632 [8] 4997d3db-7114-4d64-b4d9-c4a378499f74 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 10:34:19,638 [54] 15424e0d-e8fc-4c4e-b55e-1ce8ab22f51d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 10:34:19,662 [8] 4997d3db-7114-4d64-b4d9-c4a378499f74 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetPOcounterValues API called with WFDEPInstId = 1430
+2022-02-09 10:34:19,693 [54] 15424e0d-e8fc-4c4e-b55e-1ce8ab22f51d INFO  - Brandix.DCAP.API.Controllers.LookupController - Get WFDetailByID API called with WFID=400
+2022-02-09 10:34:20,731 [54] 15424e0d-e8fc-4c4e-b55e-1ce8ab22f51d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 1092.804 ms 
+2022-02-09 10:34:22,142 [8] 4997d3db-7114-4d64-b4d9-c4a378499f74 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 2510.2556 ms 
+2022-02-09 10:34:22,250 [8] cb387cd6-6869-493f-b979-6ea38f2b704d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 10:34:22,270 [8] cb387cd6-6869-493f-b979-6ea38f2b704d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 19.7873 ms 
+2022-02-09 10:34:22,279 [8] 5dcb0d38-d2eb-43e2-a71d-d85307a0413f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 10:34:22,292 [8] 5dcb0d38-d2eb-43e2-a71d-d85307a0413f INFO  - Brandix.DCAP.API.Controllers.LookupController - GetMostUpdatedPOcounter API called with WFDEPInstId = 1430
+2022-02-09 10:34:23,155 [8] 5dcb0d38-d2eb-43e2-a71d-d85307a0413f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 876.5469 ms 
+2022-02-09 10:34:31,116 [3] a4c4fce8-6fe0-4f3a-9a46-4a61ed030718 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 10:34:31,147 [3] a4c4fce8-6fe0-4f3a-9a46-4a61ed030718 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/BusinessLogics/UpdatePOCounter : 30.8652 ms 
+2022-02-09 10:34:31,165 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 10:34:39,934 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.LookupController - SetFlagForMinimumPOQuantity l1=748, l2=12, l3=0, l4=1, OperationCode=151
+2022-02-09 10:34:41,900 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.TransactionController - UpdatePOCounter CounterId=268913, Action=268913, Qty01=268913, BagSize=268913, BagBarcode=268913, WfdepinstId=268913, WFId=268913, 
+2022-02-09 10:34:44,568 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.LookupController - CheckForBagBarcode bagbarcode=88 mode=2
+2022-02-09 10:34:44,883 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], mode=1, WFId=1
+2022-02-09 10:34:44,884 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get BagDepId by WFInstId WFinstId=1430
+2022-02-09 10:34:45,579 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], OperationCode=127
+2022-02-09 10:34:45,582 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name bagtag=88
+2022-02-09 10:35:18,700 [54] 16b721e9-96f7-46d5-a1e7-d984e0c433e1 ERROR - Brandix.DCAP.API.Controllers.BusinessLogicsController - Error while retrieving Operation information MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+   at MySqlConnector.Protocol.Serialization.BufferedByteReader.ReadBytesAsync(IByteHandler byteHandler, ArraySegment`1 buffer, Int32 totalBytesToRead, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\BufferedByteReader.cs:line 36
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.ReadPacketAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 406
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.DoReadPayloadAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegmentHolder`1 previousPayloads, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 459
+   at MySqlConnector.Protocol.Serialization.StandardPayloadHandler.ReadPayloadAsync(ArraySegmentHolder`1 cache, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\StandardPayloadHandler.cs:line 37
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 645
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ServerSession.TryAsyncContinuation(Task`1 task) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 1230
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:line 42
+   at MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 74
+   at MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 299
+   at MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 284
+   at MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(String commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 37
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 252
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Brandix.DCAP.API.Controllers.BusinessLogicsController.UpdatePOCounter(Int32 CounterId, Int32 Action, Int32 BagSize, String BagBarcode, Int32 WfdepinstId, UInt32 WFId, Int32 OperationCode) in E:\dcap-master\dcap-master\Brandix.DCAP.API\Controllers\BusinessLogicsController.cs:line 4133
+2022-02-09 12:33:29,359 [67] a5c1fed1-298f-49f6-8f3a-8f97c35d9f23 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 12:33:29,401 [67] a5c1fed1-298f-49f6-8f3a-8f97c35d9f23 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 43.1031 ms 
+2022-02-09 12:33:29,430 [67] 8fb5727f-dbd8-4dcd-98f7-363f4f73412a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 12:33:29,462 [67] 8fb5727f-dbd8-4dcd-98f7-363f4f73412a INFO  - Brandix.DCAP.API.Controllers.LookupController - GetOpperationsByUser API called with UserId=DharmeshM
+2022-02-09 12:33:33,381 [67] 8fb5727f-dbd8-4dcd-98f7-363f4f73412a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 3951.6295 ms 
+2022-02-09 12:33:39,234 [67] 9d1566cb-6ad3-4258-bfe1-6db79b57764f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g 
+2022-02-09 12:33:39,329 [67] 9d1566cb-6ad3-4258-bfe1-6db79b57764f INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g
+2022-02-09 12:33:40,395 [67] 9d1566cb-6ad3-4258-bfe1-6db79b57764f INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 1160.7456 ms 
+2022-02-09 12:33:40,514 [33] bb07c406-fc34-45d5-86b3-5f8a3ad2ef97 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g7888 
+2022-02-09 12:33:40,558 [33] bb07c406-fc34-45d5-86b3-5f8a3ad2ef97 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g7888
+2022-02-09 12:33:41,705 [33] bb07c406-fc34-45d5-86b3-5f8a3ad2ef97 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 1191.0374 ms 
+2022-02-09 12:33:43,735 [67] f0884c41-5455-4d4c-99a1-d3a2e109fa5d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 12:33:43,752 [67] f0884c41-5455-4d4c-99a1-d3a2e109fa5d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 16.5139 ms 
+2022-02-09 12:33:43,759 [67] 28677657-8402-49c8-a6c8-70e0e91a8462 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 12:33:43,775 [67] 28677657-8402-49c8-a6c8-70e0e91a8462 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetConfigurationWFDEPInstId API called with WFDEPInstId=1430
+2022-02-09 12:33:44,730 [67] 28677657-8402-49c8-a6c8-70e0e91a8462 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 970.94 ms 
+2022-02-09 12:33:44,772 [67] 4d74ca4a-e86b-4b5c-9a3a-8e8708fbe7b6 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 12:33:44,777 [33] 2d41f88c-24ee-4c07-a5f4-848c78c6f16c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 12:33:44,811 [67] 4d74ca4a-e86b-4b5c-9a3a-8e8708fbe7b6 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 38.9275 ms 
+2022-02-09 12:33:44,832 [33] 2d41f88c-24ee-4c07-a5f4-848c78c6f16c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 54.9578 ms 
+2022-02-09 12:33:44,853 [67] 7019b40f-5022-4459-8511-5197d28159d0 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 12:33:44,854 [33] 61f4c22d-db7d-46a9-844e-c0abac46b0fe INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 12:33:44,913 [33] 61f4c22d-db7d-46a9-844e-c0abac46b0fe INFO  - Brandix.DCAP.API.Controllers.LookupController - Get WFDetailByID API called with WFID=400
+2022-02-09 12:33:44,915 [67] 7019b40f-5022-4459-8511-5197d28159d0 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetPOcounterValues API called with WFDEPInstId = 1430
+2022-02-09 12:33:45,805 [33] 61f4c22d-db7d-46a9-844e-c0abac46b0fe INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 950.9869 ms 
+2022-02-09 12:33:47,447 [67] 7019b40f-5022-4459-8511-5197d28159d0 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 2594.0432 ms 
+2022-02-09 12:33:47,564 [40] 8b69459d-b4df-414f-b0c8-c5b9189e2b50 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 12:33:47,584 [40] 8b69459d-b4df-414f-b0c8-c5b9189e2b50 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 20.1605 ms 
+2022-02-09 12:33:47,592 [40] 4abcc5cb-c73f-4aed-beb7-868595926b0c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 12:33:47,607 [40] 4abcc5cb-c73f-4aed-beb7-868595926b0c INFO  - Brandix.DCAP.API.Controllers.LookupController - GetMostUpdatedPOcounter API called with WFDEPInstId = 1430
+2022-02-09 12:33:48,566 [40] 4abcc5cb-c73f-4aed-beb7-868595926b0c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 973.9368 ms 
+2022-02-09 12:33:56,131 [67] 38a1ea80-60ec-444f-8e5f-2a8111ceddec INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 12:33:56,148 [67] 38a1ea80-60ec-444f-8e5f-2a8111ceddec INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/BusinessLogics/UpdatePOCounter : 17.0259 ms 
+2022-02-09 12:33:56,167 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 12:34:12,014 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.LookupController - SetFlagForMinimumPOQuantity l1=748, l2=12, l3=0, l4=1, OperationCode=151
+2022-02-09 12:34:15,322 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.TransactionController - UpdatePOCounter CounterId=268913, Action=268913, Qty01=268913, BagSize=268913, BagBarcode=268913, WfdepinstId=268913, WFId=268913, 
+2022-02-09 12:34:23,425 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.LookupController - CheckForBagBarcode bagbarcode=88 mode=2
+2022-02-09 12:34:23,758 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], mode=1, WFId=1
+2022-02-09 12:34:23,760 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get BagDepId by WFInstId WFinstId=1430
+2022-02-09 12:34:24,762 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], OperationCode=127
+2022-02-09 12:34:24,763 [67] d3870c82-8483-457d-b526-4776e46f15d3 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name bagtag=88
+2022-02-09 12:47:18,576 [67] d3870c82-8483-457d-b526-4776e46f15d3 ERROR - Brandix.DCAP.API.Controllers.BusinessLogicsController - Error while retrieving Operation information MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+   at MySqlConnector.Protocol.Serialization.BufferedByteReader.ReadBytesAsync(IByteHandler byteHandler, ArraySegment`1 buffer, Int32 totalBytesToRead, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\BufferedByteReader.cs:line 36
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.ReadPacketAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 406
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.DoReadPayloadAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegmentHolder`1 previousPayloads, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 459
+   at MySqlConnector.Protocol.Serialization.StandardPayloadHandler.ReadPayloadAsync(ArraySegmentHolder`1 cache, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\StandardPayloadHandler.cs:line 37
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 645
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ServerSession.TryAsyncContinuation(Task`1 task) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 1230
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:line 42
+   at MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 74
+   at MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 299
+   at MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 284
+   at MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(String commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 37
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 252
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Brandix.DCAP.API.Controllers.BusinessLogicsController.UpdatePOCounter(Int32 CounterId, Int32 Action, Int32 BagSize, String BagBarcode, Int32 WfdepinstId, UInt32 WFId, Int32 OperationCode) in E:\dcap-master\dcap-master\Brandix.DCAP.API\Controllers\BusinessLogicsController.cs:line 4133
+2022-02-09 12:48:34,709 [67] 09497b13-7623-4926-9dca-35185b3df304 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 12:48:34,732 [67] 09497b13-7623-4926-9dca-35185b3df304 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 22.917 ms 
+2022-02-09 12:48:34,754 [67] 3963dd35-776f-4e1b-b887-9effcb4dc714 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 12:48:34,769 [67] 3963dd35-776f-4e1b-b887-9effcb4dc714 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetOpperationsByUser API called with UserId=DharmeshM
+2022-02-09 12:48:37,564 [67] 3963dd35-776f-4e1b-b887-9effcb4dc714 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 2809.6537 ms 
+2022-02-09 12:50:11,981 [67] f9dea955-c5a8-45fa-aaaf-aced022ebc48 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 12:50:12,010 [67] f9dea955-c5a8-45fa-aaaf-aced022ebc48 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 28.4241 ms 
+2022-02-09 12:50:12,041 [26] d345abe7-1974-4e8b-a50d-163fe20ed16a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 12:50:12,057 [26] d345abe7-1974-4e8b-a50d-163fe20ed16a INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetClientByIP method called with clientIP=::1
+2022-02-09 12:50:13,173 [26] d345abe7-1974-4e8b-a50d-163fe20ed16a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 1132.1859 ms 
+2022-02-09 12:50:18,553 [40] 26931788-e047-4277-817e-6287f4db1111 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 12:50:18,578 [40] 26931788-e047-4277-817e-6287f4db1111 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 25.5259 ms 
+2022-02-09 12:50:18,592 [67] 4395bba9-8de0-4aff-bafc-0e00da36759d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 12:50:18,606 [67] 4395bba9-8de0-4aff-bafc-0e00da36759d INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetClientByIP method called with clientIP=::1
+2022-02-09 12:50:20,611 [67] 4395bba9-8de0-4aff-bafc-0e00da36759d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 2018.9523 ms 
+2022-02-09 12:50:28,519 [26] ee524b01-e7ed-458b-88fe-49579769e032 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 12:50:28,538 [26] ee524b01-e7ed-458b-88fe-49579769e032 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 19.1262 ms 
+2022-02-09 12:50:28,564 [26] 948879bf-9a6f-4c07-a60f-1cc8bbb80a23 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 12:50:28,577 [26] 948879bf-9a6f-4c07-a60f-1cc8bbb80a23 INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetSecuser API called with userId = 100, userIdNum = 100, password=********
+2022-02-09 12:50:29,479 [26] 948879bf-9a6f-4c07-a60f-1cc8bbb80a23 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 915.2669 ms 
+2022-02-09 12:50:29,509 [26] 5aeda093-37d7-4765-8510-6af3cfbe670a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 12:50:29,564 [26] 5aeda093-37d7-4765-8510-6af3cfbe670a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 54.4272 ms 
+2022-02-09 12:50:29,591 [26] 83cce30e-0c72-4b56-a4bc-f539f6f3f72c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 12:50:29,629 [26] 83cce30e-0c72-4b56-a4bc-f539f6f3f72c INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetUserPermissions API called with userId=100
+2022-02-09 12:50:30,656 [26] 83cce30e-0c72-4b56-a4bc-f539f6f3f72c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 1064.8956 ms 
+2022-02-09 12:50:50,241 [24] 700626d0-be14-4ad3-b455-fd8f326af552 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 12:50:50,393 [24] 700626d0-be14-4ad3-b455-fd8f326af552 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 152.5462 ms 
+2022-02-09 12:50:50,440 [40] 42d8a714-62bc-4040-b983-02c7c4d971d0 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 12:50:50,495 [40] 42d8a714-62bc-4040-b983-02c7c4d971d0 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 12:50:52,220 [40] 42d8a714-62bc-4040-b983-02c7c4d971d0 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 1780.0161 ms 
+2022-02-09 12:50:54,007 [40] 372567b4-5a58-45f3-821e-f49ebd7b2961 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 12:50:54,040 [40] 372567b4-5a58-45f3-821e-f49ebd7b2961 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 33.501 ms 
+2022-02-09 12:50:54,100 [22] e0aaa1f1-dca2-404d-a7ea-58e05376822a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 12:50:59,390 [22] e0aaa1f1-dca2-404d-a7ea-58e05376822a INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 12:51:14,540 [22] e0aaa1f1-dca2-404d-a7ea-58e05376822a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 20439.3779 ms 
+2022-02-09 12:52:31,876 [40] 1649b4af-7343-440b-b81e-e32b24900309 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : ?faccode=N23 
+2022-02-09 12:52:31,907 [40] 1649b4af-7343-440b-b81e-e32b24900309 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : 31.5618 ms 
+2022-02-09 12:52:31,936 [20] 80e70c18-2bca-4f60-bb7b-456cfb000416 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : ?faccode=N23 
+2022-02-09 12:52:38,073 [20] 80e70c18-2bca-4f60-bb7b-456cfb000416 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get All Shedules of Unaloocated Group Barcodes faccode=N23
+2022-02-09 13:01:51,488 [20] 80e70c18-2bca-4f60-bb7b-456cfb000416 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : 559552.279 ms 
+2022-02-09 13:02:06,024 [40] dc0d2d04-c594-457a-818f-02bee5ae7765 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPickListByShedule : ?styleid=748&sheduleid=12 
+2022-02-09 13:02:06,101 [40] dc0d2d04-c594-457a-818f-02bee5ae7765 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPickListByShedule : 77.0013 ms 
+2022-02-09 13:02:06,111 [40] 95b4f5b5-c5ee-48eb-b0c9-234db2b9e6fd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPickListByShedule : ?styleid=748&sheduleid=12 
+2022-02-09 13:02:17,116 [40] 95b4f5b5-c5ee-48eb-b0c9-234db2b9e6fd INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name styleid=748, sheduleid=12
+2022-02-09 13:02:20,073 [40] 95b4f5b5-c5ee-48eb-b0c9-234db2b9e6fd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPickListByShedule : 13961.7308 ms 
+2022-02-09 13:03:52,552 [40] 12048908-3e09-4659-a673-09b6ce446e89 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:03:52,570 [40] 12048908-3e09-4659-a673-09b6ce446e89 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 18.4387 ms 
+2022-02-09 13:03:52,584 [29] 87038bbf-0a29-4eef-839d-e46e9585764b INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:03:52,593 [29] 87038bbf-0a29-4eef-839d-e46e9585764b INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 13:03:54,730 [29] 87038bbf-0a29-4eef-839d-e46e9585764b INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 2146.1193 ms 
+2022-02-09 13:03:55,151 [30] 2aae8de9-52ff-4889-9cf7-030499d6291a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:03:55,167 [30] 2aae8de9-52ff-4889-9cf7-030499d6291a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 16.5231 ms 
+2022-02-09 13:03:55,174 [30] caa23ad9-af76-45a2-a75e-0b2d88bd9572 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:03:58,208 [30] caa23ad9-af76-45a2-a75e-0b2d88bd9572 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 13:04:06,208 [30] caa23ad9-af76-45a2-a75e-0b2d88bd9572 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 11033.8987 ms 
+2022-02-09 13:07:14,618 [40] 7221c8a2-eab4-40ce-8985-9426bd4b5d18 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetUsersByFunction : ?FunctionId=00801A0001&FacCode=N23 
+2022-02-09 13:07:14,633 [32] dcc8c399-99c1-455f-843e-cc785c06bc1e INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetFactoryNames :  
+2022-02-09 13:07:14,762 [4] 263d8438-cb5d-482a-892d-93f452cc67aa INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetUsersByFunction : ?FunctionId=00801A0002 
+2022-02-09 13:07:14,764 [40] 7221c8a2-eab4-40ce-8985-9426bd4b5d18 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetUsersByFunction : 146.1452 ms 
+2022-02-09 13:07:14,768 [32] dcc8c399-99c1-455f-843e-cc785c06bc1e INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetFactoryNames : 134.958 ms 
+2022-02-09 13:07:14,806 [4] 263d8438-cb5d-482a-892d-93f452cc67aa INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetUsersByFunction : 44.4616 ms 
+2022-02-09 13:07:14,820 [41] f71fd1d6-f1c7-4853-90f8-9762f9660383 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetFactoryNames :  
+2022-02-09 13:07:14,825 [40] c20ac439-bd54-4f40-952b-81e333f15fa3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetUsersByFunction : ?FunctionId=00801A0001&FacCode=N23 
+2022-02-09 13:07:14,837 [4] 7d26b3e7-74f3-40be-8a92-c50325b26742 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetUsersByFunction : ?FunctionId=00801A0002 
+2022-02-09 13:07:14,891 [41] f71fd1d6-f1c7-4853-90f8-9762f9660383 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name
+2022-02-09 13:07:14,916 [40] c20ac439-bd54-4f40-952b-81e333f15fa3 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetUsersByFunction API called with userId=00801A0001, FacCode=N23
+2022-02-09 13:07:14,984 [4] 7d26b3e7-74f3-40be-8a92-c50325b26742 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetUsersByFunction API called with userId=00801A0002, FacCode=
+2022-02-09 13:07:15,829 [40] c20ac439-bd54-4f40-952b-81e333f15fa3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetUsersByFunction : 1003.7298 ms 
+2022-02-09 13:07:18,441 [4] 7d26b3e7-74f3-40be-8a92-c50325b26742 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetUsersByFunction : 3604.3927 ms 
+2022-02-09 13:07:18,623 [41] f71fd1d6-f1c7-4853-90f8-9762f9660383 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetFactoryNames : 3803.0717 ms 
+2022-02-09 13:10:28,674 [32] fa52f089-74a2-4a72-a3ed-bf3d16d2a4b9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:10:28,701 [32] fa52f089-74a2-4a72-a3ed-bf3d16d2a4b9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 26.7095 ms 
+2022-02-09 13:10:28,714 [9] 1507e42b-b30f-4a4d-aec4-85ff02a14e36 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:10:28,728 [9] 1507e42b-b30f-4a4d-aec4-85ff02a14e36 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 13:10:29,862 [9] 1507e42b-b30f-4a4d-aec4-85ff02a14e36 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 1147.4642 ms 
+2022-02-09 13:10:30,299 [32] fab00e4f-5a31-41ee-9dac-e4bdc31a8f29 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:10:30,314 [32] fab00e4f-5a31-41ee-9dac-e4bdc31a8f29 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 15.6336 ms 
+2022-02-09 13:10:30,322 [51] c781097b-8641-476c-9fb1-070b52c4b3d5 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 13:10:36,536 [51] c781097b-8641-476c-9fb1-070b52c4b3d5 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 13:10:45,735 [51] c781097b-8641-476c-9fb1-070b52c4b3d5 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 15413.0165 ms 
+2022-02-09 15:02:19,134 [32] df5cbe19-f6ed-4672-8a0e-28c17bd7f66d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 15:02:19,460 [32] df5cbe19-f6ed-4672-8a0e-28c17bd7f66d INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 326.7615 ms 
+2022-02-09 15:02:19,542 [33] 03f7d04b-6284-4ba2-b335-e989ff6d7d8b INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 15:02:19,971 [33] 03f7d04b-6284-4ba2-b335-e989ff6d7d8b INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetClientByIP method called with clientIP=::1
+2022-02-09 15:02:22,963 [33] 03f7d04b-6284-4ba2-b335-e989ff6d7d8b INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 3420.5617 ms 
+2022-02-09 15:02:32,731 [33] 4bc4209e-0343-4bcc-986f-7847dabacd01 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:02:32,754 [33] 4bc4209e-0343-4bcc-986f-7847dabacd01 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 22.7877 ms 
+2022-02-09 15:02:32,770 [20] dd6db24d-1f94-432d-8c4b-640a4361323a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:02:32,795 [20] dd6db24d-1f94-432d-8c4b-640a4361323a INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetSecuser API called with userId = 100, userIdNum = 100, password=********
+2022-02-09 15:02:33,863 [20] dd6db24d-1f94-432d-8c4b-640a4361323a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 1092.7644 ms 
+2022-02-09 15:02:33,887 [40] 8e916a81-f2ed-4d77-9c5a-c28155f82abd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:02:33,908 [40] 8e916a81-f2ed-4d77-9c5a-c28155f82abd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 20.4803 ms 
+2022-02-09 15:02:33,919 [20] c281e8d3-0801-4d2e-b5b3-c9a3444eeef6 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:02:33,934 [20] c281e8d3-0801-4d2e-b5b3-c9a3444eeef6 INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetUserPermissions API called with userId=100
+2022-02-09 15:02:34,859 [20] c281e8d3-0801-4d2e-b5b3-c9a3444eeef6 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 940.5987 ms 
+2022-02-09 15:02:48,664 [20] 1eed6190-617b-4675-8bc0-278f1ace473c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 15:02:48,691 [20] 1eed6190-617b-4675-8bc0-278f1ace473c INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 27.467 ms 
+2022-02-09 15:02:48,714 [33] 2dfb9a76-a6bc-4b2f-a567-94146ef58c29 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 15:02:48,739 [33] 2dfb9a76-a6bc-4b2f-a567-94146ef58c29 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 15:02:49,661 [33] 2dfb9a76-a6bc-4b2f-a567-94146ef58c29 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetLocaionsByUserFactory : 946.7694 ms 
+2022-02-09 15:02:50,469 [33] 8f145b6f-aa0c-4316-9f4f-26ad4b1bd9fd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 15:02:50,489 [33] 8f145b6f-aa0c-4316-9f4f-26ad4b1bd9fd INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 19.9054 ms 
+2022-02-09 15:02:50,552 [20] 1be72e15-449b-4496-8869-62150c71e049 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllLocaionsByUserFactory : ?faccode=N23 
+2022-02-09 15:03:04,420 [20] 1be72e15-449b-4496-8869-62150c71e049 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name faccode=N23
+2022-02-09 15:03:11,744 [20] 1be72e15-449b-4496-8869-62150c71e049 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllLocaionsByUserFactory : 21192.1543 ms 
+2022-02-09 15:04:22,088 [40] 687a519c-bdc2-4807-98eb-5e94cc1d5bc3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : ?faccode=N23 
+2022-02-09 15:04:22,120 [40] 687a519c-bdc2-4807-98eb-5e94cc1d5bc3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : 31.1817 ms 
+2022-02-09 15:04:22,219 [40] aaf36646-c5a6-49c4-8d09-00d763c47958 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : ?faccode=N23 
+2022-02-09 15:04:22,254 [40] aaf36646-c5a6-49c4-8d09-00d763c47958 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get All Shedules of Unaloocated Group Barcodes faccode=N23
+2022-02-09 15:11:12,779 [40] aaf36646-c5a6-49c4-8d09-00d763c47958 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetAllShedulesofUnaloocatedGroupBarcodes : 410560.4912 ms 
+2022-02-09 15:11:49,723 [33] 97288a0f-6e5d-4c0e-9930-766501bdf6e3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPickListByShedule : ?styleid=748&sheduleid=12 
+2022-02-09 15:11:49,764 [33] 97288a0f-6e5d-4c0e-9930-766501bdf6e3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPickListByShedule : 41.0408 ms 
+2022-02-09 15:11:49,793 [34] 46a728e5-5717-4373-bb19-7f4fece977d9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPickListByShedule : ?styleid=748&sheduleid=12 
+2022-02-09 15:11:49,809 [34] 46a728e5-5717-4373-bb19-7f4fece977d9 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name styleid=748, sheduleid=12
+2022-02-09 15:11:51,550 [34] 46a728e5-5717-4373-bb19-7f4fece977d9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPickListByShedule : 1757.4687 ms 
+2022-02-09 15:26:53,684 [33] bdd544e1-ceea-4b71-aa9c-6ba08d9180f8 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 15:26:53,707 [33] bdd544e1-ceea-4b71-aa9c-6ba08d9180f8 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 23.9338 ms 
+2022-02-09 15:26:53,727 [13] 8c6002a5-8424-417c-861f-05bbbaad69c8 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 15:26:53,743 [13] 8c6002a5-8424-417c-861f-05bbbaad69c8 INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetClientByIP method called with clientIP=::1
+2022-02-09 15:26:57,298 [13] 8c6002a5-8424-417c-861f-05bbbaad69c8 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 3570.9891 ms 
+2022-02-09 15:27:00,222 [13] cdc20a79-be10-4907-9047-fefc101b8eee INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 15:27:00,243 [13] cdc20a79-be10-4907-9047-fefc101b8eee INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 21.0852 ms 
+2022-02-09 15:27:00,257 [13] 6915fd9c-f565-49ca-b1e1-dad3ebe446fb INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetClientByIP : ?clientIP=::1 
+2022-02-09 15:27:00,273 [13] 6915fd9c-f565-49ca-b1e1-dad3ebe446fb INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetClientByIP method called with clientIP=::1
+2022-02-09 15:27:01,319 [13] 6915fd9c-f565-49ca-b1e1-dad3ebe446fb INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetClientByIP : 1062.0531 ms 
+2022-02-09 15:27:07,816 [13] f2005eda-94e7-4912-86b3-b5c92dd7fa53 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:27:07,834 [13] f2005eda-94e7-4912-86b3-b5c92dd7fa53 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 18.1637 ms 
+2022-02-09 15:27:07,843 [13] d2ad4055-fafb-4ecc-b8b7-3a6c0ae1c755 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetSecuser : ?userId=100&userIdNum=100&password=123&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:27:07,856 [13] d2ad4055-fafb-4ecc-b8b7-3a6c0ae1c755 INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetSecuser API called with userId = 100, userIdNum = 100, password=********
+2022-02-09 15:27:08,893 [13] d2ad4055-fafb-4ecc-b8b7-3a6c0ae1c755 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetSecuser : 1050.2619 ms 
+2022-02-09 15:27:08,925 [9] 6863aab6-49a3-49bf-9e57-828055e28a86 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:27:09,054 [9] 6863aab6-49a3-49bf-9e57-828055e28a86 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 129.0056 ms 
+2022-02-09 15:27:09,082 [9] 4d976afb-2ca6-468f-bd78-bc588b8d0816 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Security/GetUserPermissions : ?userId=100&UserId=100&UserIdNum=100&Password=123 
+2022-02-09 15:27:09,120 [9] 4d976afb-2ca6-468f-bd78-bc588b8d0816 INFO  - Brandix.DCAP.API.Controllers.SecurityController - GetUserPermissions API called with userId=100
+2022-02-09 15:27:10,077 [9] 4d976afb-2ca6-468f-bd78-bc588b8d0816 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Security/GetUserPermissions : 995.6638 ms 
+2022-02-09 15:27:10,937 [33] f3cae34e-8f2f-4abf-8225-a14d431959e9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 15:27:10,955 [33] f3cae34e-8f2f-4abf-8225-a14d431959e9 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 17.8791 ms 
+2022-02-09 15:27:10,965 [33] e1d3f31f-c3ca-425e-a348-018b52a6d734 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 15:27:10,979 [33] e1d3f31f-c3ca-425e-a348-018b52a6d734 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetOpperationsByUser API called with UserId=DharmeshM
+2022-02-09 15:27:12,081 [33] e1d3f31f-c3ca-425e-a348-018b52a6d734 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 1115.5717 ms 
+2022-02-09 15:27:16,872 [33] 3fe9b50d-639d-4ec4-ba8e-7ca860d81117 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g 
+2022-02-09 15:27:16,909 [33] 3fe9b50d-639d-4ec4-ba8e-7ca860d81117 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g
+2022-02-09 15:27:17,900 [33] 3fe9b50d-639d-4ec4-ba8e-7ca860d81117 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 1027.3591 ms 
+2022-02-09 15:27:17,965 [57] d2ca3028-5766-4594-bc6f-e939d291400a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetStylesByStyleNo : ?Style=g7888 
+2022-02-09 15:27:17,976 [57] d2ca3028-5766-4594-bc6f-e939d291400a INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Styles By StyleNo called with Style No=g7888
+2022-02-09 15:27:19,085 [57] d2ca3028-5766-4594-bc6f-e939d291400a INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetStylesByStyleNo : 1119.4992 ms 
+2022-02-09 15:27:20,085 [33] 758e36ae-5f1f-490e-86f2-23a8d28a26aa INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 15:27:20,103 [33] 758e36ae-5f1f-490e-86f2-23a8d28a26aa INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 17.98 ms 
+2022-02-09 15:27:20,125 [33] 030f8c81-5ef9-418a-896f-928f921c9b87 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetConfigurationWFDEPInstId : ?WFDEPInstId=1430 
+2022-02-09 15:27:20,169 [33] 030f8c81-5ef9-418a-896f-928f921c9b87 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetConfigurationWFDEPInstId API called with WFDEPInstId=1430
+2022-02-09 15:27:21,194 [33] 030f8c81-5ef9-418a-896f-928f921c9b87 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetConfigurationWFDEPInstId : 1069.1713 ms 
+2022-02-09 15:27:21,295 [33] fd7fec72-8a4a-439c-8dd5-43dbbd950d91 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 15:27:21,338 [9] 7f57d4ac-27b9-4365-934e-9b810de75047 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 15:27:21,360 [33] fd7fec72-8a4a-439c-8dd5-43dbbd950d91 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 65.229 ms 
+2022-02-09 15:27:21,376 [9] 7f57d4ac-27b9-4365-934e-9b810de75047 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 38.2176 ms 
+2022-02-09 15:27:21,441 [33] cfdc3366-047b-4a7a-92d2-0bb71cf20e68 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetPOcounterValues : ?WFDEPInstId=1430 
+2022-02-09 15:27:21,456 [9] 6ce2c143-bdaf-4b78-9276-e271b4a031eb INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetWFDetailByID : ?WFId=400 
+2022-02-09 15:27:21,538 [33] cfdc3366-047b-4a7a-92d2-0bb71cf20e68 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetPOcounterValues API called with WFDEPInstId = 1430
+2022-02-09 15:27:21,550 [9] 6ce2c143-bdaf-4b78-9276-e271b4a031eb INFO  - Brandix.DCAP.API.Controllers.LookupController - Get WFDetailByID API called with WFID=400
+2022-02-09 15:27:22,602 [9] 6ce2c143-bdaf-4b78-9276-e271b4a031eb INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetWFDetailByID : 1145.335 ms 
+2022-02-09 15:27:24,077 [33] cfdc3366-047b-4a7a-92d2-0bb71cf20e68 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetPOcounterValues : 2635.8184 ms 
+2022-02-09 15:27:24,169 [33] beebec89-2dc1-409d-8c38-ef42d9269a83 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 15:27:24,231 [33] beebec89-2dc1-409d-8c38-ef42d9269a83 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 61.9324 ms 
+2022-02-09 15:27:24,261 [33] 4594107c-b181-40e3-ac6e-1abbe8315037 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetMostUpdatedPOcounter : ?WFDEPInstId=1430 
+2022-02-09 15:27:24,279 [33] 4594107c-b181-40e3-ac6e-1abbe8315037 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetMostUpdatedPOcounter API called with WFDEPInstId = 1430
+2022-02-09 15:27:25,158 [33] 4594107c-b181-40e3-ac6e-1abbe8315037 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetMostUpdatedPOcounter : 896.4576 ms 
+2022-02-09 15:43:26,454 [33] ade7a301-be82-4fbb-85a7-6ac81f7418fe INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 15:43:26,536 [33] ade7a301-be82-4fbb-85a7-6ac81f7418fe INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/BusinessLogics/UpdatePOCounter : 165.0153 ms 
+2022-02-09 15:43:26,563 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/BusinessLogics/UpdatePOCounter : ?CounterId=268913&Action=1&BagSize=2&BagBarcode=88&WfdepinstId=1430&WFId=400&OperationCode=127 
+2022-02-09 15:43:40,265 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.LookupController - SetFlagForMinimumPOQuantity l1=748, l2=12, l3=0, l4=1, OperationCode=151
+2022-02-09 15:43:42,949 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.TransactionController - UpdatePOCounter CounterId=268913, Action=268913, Qty01=268913, BagSize=268913, BagBarcode=268913, WfdepinstId=268913, WFId=268913, 
+2022-02-09 15:43:46,531 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.LookupController - CheckForBagBarcode bagbarcode=88 mode=2
+2022-02-09 15:43:46,822 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], mode=1, WFId=1
+2022-02-09 15:43:46,823 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get BagDepId by WFInstId WFinstId=1430
+2022-02-09 15:43:55,552 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.TransactionController - CreateGroup ui=[Brandix.DCAP.API.Models.TeamCounter], OperationCode=127
+2022-02-09 15:43:55,553 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 INFO  - Brandix.DCAP.API.Controllers.LookupController - Get Factory Name bagtag=88
+2022-02-09 15:44:56,659 [33] ca761f65-83ef-4cb6-a88f-85f9b62d38a5 ERROR - Brandix.DCAP.API.Controllers.BusinessLogicsController - Error while retrieving Operation information MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+   at MySqlConnector.Protocol.Serialization.BufferedByteReader.ReadBytesAsync(IByteHandler byteHandler, ArraySegment`1 buffer, Int32 totalBytesToRead, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\BufferedByteReader.cs:line 36
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.ReadPacketAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 406
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.DoReadPayloadAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegmentHolder`1 previousPayloads, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 459
+   at MySqlConnector.Protocol.Serialization.StandardPayloadHandler.ReadPayloadAsync(ArraySegmentHolder`1 cache, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\StandardPayloadHandler.cs:line 37
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 645
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ServerSession.TryAsyncContinuation(Task`1 task) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 1230
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:line 42
+   at MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 74
+   at MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 299
+   at MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 284
+   at MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(String commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 37
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 252
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Brandix.DCAP.API.Controllers.BusinessLogicsController.UpdatePOCounter(Int32 CounterId, Int32 Action, Int32 BagSize, String BagBarcode, Int32 WfdepinstId, UInt32 WFId, Int32 OperationCode) in E:\dcap-master\dcap-master\Brandix.DCAP.API\Controllers\BusinessLogicsController.cs:line 4133
+2022-02-09 15:47:42,315 [77] 9273eee2-685a-440c-a0f5-af3316677ff6 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 15:47:42,383 [77] 9273eee2-685a-440c-a0f5-af3316677ff6 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 67.6409 ms 
+2022-02-09 15:47:42,416 [77] e708967d-2456-4479-b7e7-9412d10cced3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Start /api/Lookup/GetOpperationsByUser : ?UserId=DharmeshM&ClientIp=::1 
+2022-02-09 15:47:42,431 [77] e708967d-2456-4479-b7e7-9412d10cced3 INFO  - Brandix.DCAP.API.Controllers.LookupController - GetOpperationsByUser API called with UserId=DharmeshM
+2022-02-09 15:47:44,786 [77] e708967d-2456-4479-b7e7-9412d10cced3 INFO  - Brandix.DCAP.API.Controllers.RequestLogger - Request Ended - /api/Lookup/GetOpperationsByUser : 2369.9524 ms 

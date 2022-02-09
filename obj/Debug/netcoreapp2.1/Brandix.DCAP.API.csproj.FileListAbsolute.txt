@@ -1,0 +1,66 @@
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csprojAssemblyReference.cache
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csproj.CoreCompileInputs.cache
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cache
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cs
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfoInputs.cache
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfo.cs
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.deps.json
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.json
+D:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.dev.json
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorTargetAssemblyInfo.cache
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+d:\ProJectS\DCapV2\DCap-V2\Branches\DEV\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.deps.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.dev.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csprojAssemblyReference.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csproj.CoreCompileInputs.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cs
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfoInputs.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfo.cs
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorTargetAssemblyInfo.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.deps.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.dev.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csproj.CoreCompileInputs.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cs
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfoInputs.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfo.cs
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorTargetAssemblyInfo.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\log4net.config
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\bin\Debug\netcoreapp2.1\package-lock.json
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.genruntimeconfig.cache
+C:\Projects\DCap\DCAP-Report tool\Brandix.DCAP.API - OutSource\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csproj.AssemblyReference.cache
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\log4net.config
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\package-lock.json
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\appsettings.json
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.deps.json
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.json
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.runtimeconfig.dev.json
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+E:\dcap-master\dcap-master\Brandix.DCAP.API\bin\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csprojAssemblyReference.cache
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfoInputs.cache
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.AssemblyInfo.cs
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.csproj.CoreCompileInputs.cache
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cache
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorAssemblyInfo.cs
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.RazorTargetAssemblyInfo.cache
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.dll
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.pdb
+E:\dcap-master\dcap-master\Brandix.DCAP.API\obj\Debug\netcoreapp2.1\Brandix.DCAP.API.genruntimeconfig.cache
