@@ -1907,7 +1907,7 @@ namespace Brandix.DCAP.API.Controllers
                                         {
                                             if (Wfd.POCounterNumber == 1)
                                             {
-                                                // 
+                                                // Updated by Dharmesh  
                                                 BusinessLogicsController bu = new BusinessLogicsController(dcap);
                                                 //New code start - To check the flag if bagbarcode is there 02-11-2022
                                                 var Response = new TeamCounterOutput();
