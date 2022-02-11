@@ -1907,8 +1907,19 @@ namespace Brandix.DCAP.API.Controllers
                                         {
                                             if (Wfd.POCounterNumber == 1)
                                             {
+                                                // 
                                                 BusinessLogicsController bu = new BusinessLogicsController(dcap);
-                                                var Response = bu.BagBarcodeChecker(ui, true);
+                                                //New code start - To check the flag if bagbarcode is there 02-11-2022
+                                                var Response = new TeamCounterOutput();
+                                                //Response= null;
+                                                Response = bu.BagBarcodeChecker(ui, true);
+                                                if(Wfd.AddNewBag==1)
+                                                {
+                                                 Response.updated=true;
+                                                 Response.IsUpdateAvilable=false;
+                                                 Response.BagBarCodeNo= ui.BagBarCodeNo;
+                                                }
+                                                
                                                 if (Response != null)
                                                 {
                                                     if (!Response.updated)
@@ -1924,6 +1935,7 @@ namespace Brandix.DCAP.API.Controllers
                                                         if (Response.IsUpdateAvilable)
                                                         {
                                                             ui.CounterId = Response.CounterId;
+                                                           // ui.CounterId = 267324;
                                                             ui.BagBarCodeNo = Response.BagBarCodeNo;
                                                         }
 
@@ -1942,6 +1954,43 @@ namespace Brandix.DCAP.API.Controllers
                                                     ui.SaveSuccessfull = false;
                                                     lstBCData_Return.Add(ui);
                                                 }
+                                                
+                                                
+                                                //New ocde End - 02-11-2022 
+                                                // var Response = bu.BagBarcodeChecker(ui, true);
+                                                // if (Response != null)
+                                                // {
+                                                //     if (!Response.updated)
+                                                //     {
+                                                //         ui.Responce[0] = "PO Counter Issue (Bag Barcode update failed)";
+                                                //         ui.Responce[1] = "PO Counter Issue (Bag Barcode update failed)";
+                                                //         ui.NewCounter = false;
+                                                //         ui.SaveSuccessfull = false;
+                                                //         lstBCData_Return.Add(ui);
+                                                //     }
+                                                //     else
+                                                //     {
+                                                //         if (Response.IsUpdateAvilable)
+                                                //         {
+                                                //             ui.CounterId = Response.CounterId;
+                                                //             ui.BagBarCodeNo = Response.BagBarCodeNo;
+                                                //         }
+
+                                                //         ui.IsUpdateAvilable = Response.IsUpdateAvilable;
+                                                //         ui.NewCounter = Response.NewCounter;
+
+                                                //         BCData_Return = DbUpdate(ui);
+
+                                                //     }
+                                                // }
+                                                // else
+                                                // {
+                                                //     ui.Responce[0] = "PO Counter Issue, Bag Barcode update failed, (Response from Barcode Checker is Empty)";
+                                                //     ui.Responce[1] = "PO Counter Issue, Bag Barcode update failed, (Response from Barcode Checker is Empty)";
+                                                //     ui.NewCounter = false;
+                                                //     ui.SaveSuccessfull = false;
+                                                //     lstBCData_Return.Add(ui);
+                                                // }
                                             }
                                             else
                                             {
@@ -4090,7 +4139,7 @@ namespace Brandix.DCAP.API.Controllers
         [Produces("application/json")]
         [HttpPost("UpdatePOCounter")]
 
-        public CommonUserOutputs UpdatePOCounter(int CounterId, int Action, int BagSize, string BagBarcode, int WfdepinstId, uint WFId, int OperationCode)
+        public CommonUserOutputs UpdatePOCounter(int CounterId, int Action, int BagSize, string BagBarcode, int WfdepinstId, uint WFId, int OperationCode, string LocCode)
         {
             CommonUserOutputs Status = new CommonUserOutputs();
             using (var trans = dcap.Database.BeginTransaction())
@@ -4116,7 +4165,7 @@ namespace Brandix.DCAP.API.Controllers
 
                     Status.SaveSuccessfull = TxnContrl.UpdatePOCounter(CounterId, Action, 0, BagSize, BagBarcode, WfdepinstId, WFId, OperationCode);
 
-//                     
+// Code start - Added to save in Good control and Good control Details                    
 
                     Wfdep wfdep = new Wfdep();
                     wfdep = dcap.Wfdep
@@ -4125,35 +4174,35 @@ namespace Brandix.DCAP.API.Controllers
                     
                     Detxn detxn = new Detxn();
                     detxn= dcap.Detxn
-                            .Where(b => b.BagBarCodeNo == BagBarcode).FirstOrDefault();
+                            .Where(b => b.WfdepinstId == WfdepinstId).FirstOrDefault();
 
                     if(wfdep.ReceiveEnable == 1)
                     {
                         DispatchInput di =new DispatchInput();
 
-                    di.DispatchBarcode= "1234567";//1234
+                    di.DispatchBarcode= "1234568";//1234
                     di.Type=100;// 0; //$("#newRequestTypeFilter").data("kendoDropDownList").value(),
                     di.Return= 0;// (Requesttype == 300 ? 2 : (Requesttype == 100 ? ( element.Mode == 1 ? 0 : 1 ) : ( element.Mode >= 2 ? 0 : 1 ))),
                     di.WFIdBag= 0;
                     di.DEPIdBag=0;
                     di.SeqBag=0;
-                    di.L1idBag= detxn.L1id;// TC1.L1id;
-                    di.L2idBag = Convert.ToUInt32(detxn.L2id );// TC1.L2id;
-                    di.L3idBag= Convert.ToUInt32(detxn.L3id); // TC1.L3id;
-                    di.L4idBag= Convert.ToUInt32(detxn.L4id); //TC1.L4id;
-                    di.L5idBag= Convert.ToUInt32(detxn.L5id );//TC1.L5id;
+                    di.L1idBag=detxn.L1id;// 748; // detxn.L1id;// TC1.L1id;
+                    di.L2idBag =Convert.ToUInt32(detxn.L2id ); //12; // Convert.ToUInt32(detxn.L2id );// TC1.L2id;
+                    di.L3idBag= Convert.ToUInt32(detxn.L3id);//0;//Convert.ToUInt32(detxn.L3id); // TC1.L3id;
+                    di.L4idBag=  Convert.ToUInt32(detxn.L4id);//1;// Convert.ToUInt32(detxn.L4id); //TC1.L4id;
+                    di.L5idBag=0;//In good control we should pass l5 - 0// Convert.ToUInt32(detxn.L5id );//TC1.L5id;
                     di.BagBarcode= BagBarcode;
                     di.Wfid= WFId;
                    di.departmentTo=0;
                     di.TxnDateandTime= DateTime.Today;
                     di.TxnMode= 1;//0;
                     di.TxnStatus= 4;// status will update to 5 //need to have >=4
-                    di.Qty01=Convert.ToDecimal( detxn.Qty01);
-                    di.OperationCode= System.Convert.ToUInt32( detxn.OperationCode);
-                    di.EnterdBy=detxn.EnteredBy;
+                    di.Qty01= //Convert.ToDecimal( detxn.Qty01); //3
+                    di.OperationCode= System.Convert.ToUInt32(OperationCode);//System.Convert.ToUInt32( detxn.OperationCode);
+                    di.EnterdBy=detxn.EnteredBy;//"";//detxn.EnteredBy;
                     di.Remark="";
                     di.LocFrom="";
-                    di.LocCode="N23";//N23
+                    di.LocCode=LocCode;//"N23";//N23
                     di.Approver="";
                     di.ApprovalStatus= 0;
                     di.receiverName="";
@@ -4162,10 +4211,10 @@ namespace Brandix.DCAP.API.Controllers
                     di.courierNo="";
                     di.gpRemarks="";
                     di.vehicleNo="";
-                    di.ModifiedBy= detxn.ModifiedBy;
-                    di.ModifiedMachine= detxn.ModifiedMachine;
-                    di.CreatedBy= detxn.CreatedBy;
-                    di.CreatedMachine= detxn.CreatedMachine;
+                    di.ModifiedBy=detxn.ModifiedBy; //"";// detxn.ModifiedBy;
+                    di.ModifiedMachine= detxn.ModifiedMachine;//"";// detxn.ModifiedMachine;
+                    di.CreatedBy= detxn.CreatedBy;//"";//detxn.CreatedBy;
+                    di.CreatedMachine= detxn.CreatedMachine;//"";//detxn.CreatedMachine;
                     
             
             //string controlid="7820203"; int seq=118686;
@@ -4187,6 +4236,8 @@ namespace Brandix.DCAP.API.Controllers
                         //TxnContrl.UpdateGoodControlDetails();
                         //TxnContrl.UpdateGoodControlDetailsStatus();
                     }
+// Code End - Added to save in Good control and Good control Details                    
+
 
                     if (Status.SaveSuccessfull)
                     {
@@ -5280,6 +5331,7 @@ namespace Brandix.DCAP.API.Controllers
             LookupController lookup = new LookupController(dcap);
             try
             {
+// put the condition to check addnew bag if 0 then not to check this function 
 
                 //Get Bag Barcode if assigned to a Barcode in DETXN Table
                 var BagBarcodeDetails = lookup.GetBagBarcodeByBarcode(ui.Barcode, (int)ui.StyleId, (int)ui.ScheduleId, 0, (int)ui.ColorId);

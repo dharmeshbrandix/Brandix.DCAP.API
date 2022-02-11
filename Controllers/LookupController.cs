@@ -625,7 +625,10 @@ namespace Brandix.DCAP.API.Controllers
                              POCounterEnable = w.POCounterEnable,
                              POCounterNumber = w.POCounterNumber,
                              RejectReasonSelectMode = w.RejectReasonSelectMode,
-                             ValidateSheduleChange = w.ValidateSheduleChange
+                             ValidateSheduleChange = w.ValidateSheduleChange,
+                             //Added ReceiveEnable and AddNewBag to get their valuess through instanceid - Dharmesh 02-11-2022
+                             ReceiveEnable=w.ReceiveEnable,
+                             AddNewBag=w.AddNewBag
                          }).FirstOrDefault();
             }
             catch (Exception e)
@@ -4561,6 +4564,7 @@ namespace Brandix.DCAP.API.Controllers
 
             try
             {
+                // Changed the code based on Nimantha 02-04-2022
                 var op = dcap.Wfdep.Where(c => c.WfdepinstId == WfdepinstId).AsQueryable().Select(c => (int?)c.OperationCode).FirstOrDefault();
 
                 objteamcounter = dcap.GroupBarcode.Where(c => c.L1id == styleId && c.L2id == sheduleId && c.L3id == 0 && c.L4id == colorId && c.OperationCode == (int?)op && c.BagBarCodeNo == BagBarcode && c.TxnMode == 1 && c.TxnStatus == 0).Select(c => new TeamCounter { BagBarCodeNo = c.BagBarCodeNo, CounterId = 0 }).FirstOrDefault();

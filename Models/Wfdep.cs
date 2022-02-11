@@ -55,6 +55,7 @@ namespace Brandix.DCAP.API.Models
         
         public int NextSeqNo { get; set; }
         public int ReceiveEnable {get;set;}
+        public int AddNewBag{get;set;}
 
         public Dep Dep { get; set; }
         public Team Team { get; set; }
